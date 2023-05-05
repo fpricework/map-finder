@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+## Hackathon Friday 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Some inspiration** 
+> Be not afraid of growing slowly, be afraid of standing still. - *Chinese Proverb*
 
-## Available Scripts
+Bootcampers, look how far you’ve come! It’s Week 8 already and we’ve covered so much. This week we’ve reflected on our projects, our teams and our learning and have taken ownership of where we want to take our development. 
 
-In the project directory, you can run:
+The learning audit has given us the opportunity to consolidate our knowledge ready for the rest of the course. Today’s hackathon will look at applying what you’ve reviewed this week - use this as an opportunity to play with what you’ve been learning and enjoy yourselves!
 
-### `npm start`
+#### Remember to start a new project with react:  [documentation](https://create-react-app.dev/docs/getting-started)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
+### Your task is to recreate either an ecommerce platform or a map finder.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Example of project design - for an ecommerce platform
+![](https://www.zacharyfixler.com/_nuxt/image/148865.png "Example of ecommerce platform")
 
-### `npm test`
+#### Resources required for project 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Resource  | Link |
+| ------------- |:-------------:|
+| Fake store API      | https://fakestoreapi.com/     |
+---
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Example of project design - a map finder
+![](https://res.cloudinary.com/dz209s6jk/image/upload/v1554827486/Challenges/jfrcfmcisi1xiwm4rl1s.jpg "Example of map finder frontend.")
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Resources required for the project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Resource  | Link |
+| ------------- |:-------------:|
+| Map API      | https://restcountries.com/     |
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Things to include in your project today
+-   Create a component tree diagram
+    -   Should show what components have state (if any) & props (if any).
+-   Fetching from API & Filter the data.
+-   Recreate the design given and maybe make it better (if time permits).
+-   Some tests
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Bonus tasks
+-   Explore localstorage to keep data persisting.
+-   Make it responsive.
+-   Include dark/light mode.
+-   Explore accessibility.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Resource  | Link |
+| ------------- |:-------------:|
+| fetch from API      | https://dmitripavlutin.com/javascript-fetch-async-await/
+| Array.map()      | https://www.freecodecamp.org/news/javascript-map-how-to-use-the-js-map-function-array-method/     |
+| Array.filter()      | https://www.digitalocean.com/community/tutorials/js-filter-array-method     |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

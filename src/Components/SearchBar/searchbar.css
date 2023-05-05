@@ -1,0 +1,36 @@
+.search-wrapper 
+{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.search-wrapper i 
+{
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    color: grey;
+}
+
+.search-input 
+{
+    padding-left: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 50px;
+    width: 90vw;
+}
+
+@media only screen and (min-width: 600px)
+{
+    .search-input 
+    {
+        width: 20vw;
+    }
+
+    .search-wrapper 
+    {
+        margin-bottom: 0;
+    }
+}
