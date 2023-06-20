@@ -1,55 +1,19 @@
-## Hackathon Friday 
+# Country Flags
 
-**Some inspiration** 
-> Be not afraid of growing slowly, be afraid of standing still. - *Chinese Proverb*
+This web application allows users to explore various countries and retrieve relevant details such as population, region, capital, and flag using a live search.
 
-Bootcampers, look how far you’ve come! It’s Week 8 already and we’ve covered so much. This week we’ve reflected on our projects, our teams and our learning and have taken ownership of where we want to take our development. 
+## Features
 
-The learning audit has given us the opportunity to consolidate our knowledge ready for the rest of the course. Today’s hackathon will look at applying what you’ve reviewed this week - use this as an opportunity to play with what you’ve been learning and enjoy yourselves!
+1. **Responsive Design:** The application is designed to be responsive and work well on different screen sizes, allowing users to access it from various devices.
 
-#### Remember to start a new project with react:  [documentation](https://create-react-app.dev/docs/getting-started)
+2. **Dark and Light Mode:** The project includes a mode toggle feature that allows users to switch between dark and light mode, providing a visually comfortable experience.
 
----
-### Your task is to recreate either an ecommerce platform or a map finder.
+3. **Search Functionality:** Users can search for countries by name using the search bar. The application filters the countries in real-time as the user types, making it easy to find specific countries of interest.
 
-#### Example of project design - for an ecommerce platform
-![](https://www.zacharyfixler.com/_nuxt/image/148865.png "Example of ecommerce platform")
+4. **Filter by Region:** The project provides a filter dropdown that allows users to filter countries by region. Users can select a specific region, such as Africa, Americas, Asia, Europe, or Oceania, to view countries only from that region.
 
-#### Resources required for project 
+5. **Country Information:** The application displays detailed information for each country, including its name, population, region, and capital. The information is presented in a visually appealing country card format.
 
-| Resource  | Link |
-| ------------- |:-------------:|
-| Fake store API      | https://fakestoreapi.com/     |
----
+6. **API Integration:** The project integrates with the "https://restcountries.com/" API to fetch country data. It uses the fetched data to populate the application and provide up-to-date information about countries.
 
-
-#### Example of project design - a map finder
-![](https://res.cloudinary.com/dz209s6jk/image/upload/v1554827486/Challenges/jfrcfmcisi1xiwm4rl1s.jpg "Example of map finder frontend.")
-
-#### Resources required for the project
-
-| Resource  | Link |
-| ------------- |:-------------:|
-| Map API      | https://restcountries.com/     |
-
----
-
-#### Things to include in your project today
--   Create a component tree diagram
-    -   Should show what components have state (if any) & props (if any).
--   Fetching from API & Filter the data.
--   Recreate the design given and maybe make it better (if time permits).
--   Some tests
-
-#### Bonus tasks
--   Explore localstorage to keep data persisting.
--   Make it responsive.
--   Include dark/light mode.
--   Explore accessibility.
-
-| Resource  | Link |
-| ------------- |:-------------:|
-| fetch from API      | https://dmitripavlutin.com/javascript-fetch-async-await/
-| Array.map()      | https://www.freecodecamp.org/news/javascript-map-how-to-use-the-js-map-function-array-method/     |
-| Array.filter()      | https://www.digitalocean.com/community/tutorials/js-filter-array-method     |
-
+7. **Sorting:** The fetched country data is sorted alphabetically by country name, ensuring a consistent and organized display of countries.
